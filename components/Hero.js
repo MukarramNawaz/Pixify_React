@@ -11,7 +11,7 @@ const Hero = () => (
         <button className="cta-button">Learn More</button>
       </div>
       <div className="hero-image">
-        <img src={require('../images/LOGO.jpg')} alt="Phone" />
+        <img src={require('../images/Banner 1.png')} alt="Phone" />
       </div>
     </div>
   </section>

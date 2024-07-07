@@ -10,15 +10,19 @@
     justify-content: center;
     align-items: center;
     z-index: 1000;
+    overflow: auto;
+
   }
   
   .modalContainer {
-  
+    animation: fadeIn 0.75s ease-in-out;
     padding: 10px;
     border-radius: 8px;
     width: 800px;
     max-width: 90%;
-    max-height: 80%;
+    margin: auto;
+    background: white;
+    
   }
   
   .closeBtn {
@@ -27,18 +31,21 @@
     font-size: 28px;  
     font-weight: bold;
     width: 4%;
+    margin-left: 10px;
   }
   
   .content {
     margin-top: -10%;
     text-align: center;
+    background-color: rgba(119, 116, 253, 0.7);
   }
   
 
   .content img {
     max-width: 60%;
-    max-height: 30%;
+    margin-bottom: -10px;
     border-radius: 5px;
+    margin-top: 8px;
   }
 
   .modal_text_P {
@@ -49,13 +56,18 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    margin-top: 20px;
+   
   }
   
   .projectCard {
     background: #f0f0f0;
-    padding: 10px;
     border-radius: 8px;
     text-align: center;
+    padding: 10px;
+    margin: 5px 10px;
   }
   
+  .projectCard img {
+    margin-top: -5px;
+    max-width: 100%;
+  }

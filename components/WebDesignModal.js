@@ -11,7 +11,7 @@ const WebDesignModal = ({ open, onClose }) => {
         <p className='closeBtn' onClick={onClose}>X</p>
         <div className='content'>
           <img src={require('../images/web_design.gif')} alt='Web Design Main' />
-          <h1>Web Designing</h1>
+          <h1>Web Development</h1>
           <p className='modal_text_P'> Crafting Exceptional Websites for Unmatched Success </p>
           <div className='projectsGrid'>
             <div className='projectCard'>

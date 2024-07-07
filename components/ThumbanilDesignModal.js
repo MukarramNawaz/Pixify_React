@@ -10,24 +10,25 @@ const GraphicDesignModal = ({ open, onClose }) => {
       <div onClick={(e) => e.stopPropagation()} className='modalContainer'>
         <p className='closeBtn' onClick={onClose}>X</p>
         <div className='content'>
-          <img src='path_to_graphic_design_main_image' alt='Graphic Design Main' />
-          <h1>Graphic Design</h1>
+          <img src={require('../images/Thumbanil_Main.png')} alt='Graphic Design Main' />
+          <h1>Thumbanail Design</h1>
+          <p className='modal_text_P'> Creative & Custom Thumbnails to Stand Out </p>
           <div className='projectsGrid'>
             <div className='projectCard'>
-              <img src='path_to_project_1_image' alt='Project 1' />
-              <p>Project 1</p>
+              <img src={require('../images/Mystic_Thumbanil 2.jpg')} alt='Project 1' />
+           
             </div>
             <div className='projectCard'>
-              <img src='path_to_project_2_image' alt='Project 2' />
-              <p>Project 2</p>
+              <img src={require('../images/LALA_Thumbanil.jpg')} alt='Project 2' />
+           
             </div>
             <div className='projectCard'>
-              <img src='path_to_project_3_image' alt='Project 3' />
-              <p>Project 3</p>
+              <img src={require('../images/Siraj_Thumbanil.jpg')} alt='Project 3' />
+          
             </div>
             <div className='projectCard'>
-              <img src='path_to_project_4_image' alt='Project 4' />
-              <p>Project 4</p>
+              <img src={require('../images/Sherry_Thumbanil 2.jpg')} alt='Project 4' />
+        
             </div>
           </div>
         </div>

@@ -4,18 +4,17 @@ import '../App.css';
 import '../images/LOGO.jpg'
 
 const Header = () => {
-  const toggleMobileMenu = () => {
-    document.getElementById('mobileMenu').classList.toggle('open');
-  };
 
   return (
     <header className="header">
       <img className="logo" src={require('../images/LOGO.jpg')} alt="LOGO" />
       <nav className="nav">
-        <a href="#">HOME</a>
-        <a href="./aboutus.html">CONTACT</a>
+        <a href="https://calendly.com/pixfy/meeting" target='blank'>Contact US</a>
       </nav>
-     
+      
+     <div>
+      
+     </div>
     </header>
   );
 };

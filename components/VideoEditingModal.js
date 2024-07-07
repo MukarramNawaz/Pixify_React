@@ -11,7 +11,8 @@ const AppDesignModal = ({ open, onClose }) => {
         <p className='closeBtn' onClick={onClose}>X</p>
         <div className='content'>
           <img src='path_to_app_design_main_image' alt='App Design Main' />
-          <h1>App Design</h1>
+          <h1>Video Editing</h1>
+          <p className='modal_text_P'> Editing Excellence for Every Project </p>
           <div className='projectsGrid'>
             <div className='projectCard'>
               <img src='path_to_project_1_image' alt='Project 1' />
